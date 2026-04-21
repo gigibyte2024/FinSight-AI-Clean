@@ -1,0 +1,23 @@
+date,merchant,description,amount,type
+2024-12-01,Salary,Monthly salary credit,85000,credit
+2024-12-02,Swiggy,Food delivery dinner,420,debit
+2024-12-03,Uber,Cab to office,180,debit
+2024-12-04,Amazon,Shopping order electronics,2499,debit
+2024-12-05,Netflix,Subscription monthly,649,debit
+2024-12-06,Zomato,Lunch order,310,debit
+2024-12-07,Apollo Pharmacy,Medicine purchase,540,debit
+2024-12-08,Electricity Board,Electricity bill payment,1850,debit
+2024-12-10,Landlord,Rent payment,18000,debit
+2024-12-12,Starbucks,Coffee,320,debit
+2024-12-14,Flipkart,Clothing purchase,1799,debit
+2024-12-16,Spotify,Music subscription,119,debit
+2024-12-18,BookMyShow,Movie tickets,600,debit
+2024-12-20,Petrol Pump,Fuel,2200,debit
+2024-12-22,Swiggy,Food delivery,510,debit
+2024-12-25,Unknown Merchant,Suspicious large UPI transfer,15000,debit
+2024-11-01,Salary,Monthly salary credit,85000,credit
+2024-11-05,Amazon,Shopping order,1200,debit
+2024-11-10,Landlord,Rent payment,18000,debit
+2024-11-15,Swiggy,Food delivery,380,debit
+2024-11-20,Uber,Cab,250,debit
+2024-11-25,Netflix,Subscription,649,debit
