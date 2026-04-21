@@ -1,3 +1,4 @@
+# Requires Python 3.12 — set PYTHON_VERSION=3.12.7 in Render dashboard
 setuptools>=70.0.0
 wheel
 
@@ -9,5 +10,6 @@ scikit-learn==1.5.2
 matplotlib==3.9.2
 openai==1.54.0
 python-multipart==0.0.12
-pydantic==2.9.2
+pydantic==2.7.4
+pydantic-core==2.18.4
 python-dotenv==1.0.1
