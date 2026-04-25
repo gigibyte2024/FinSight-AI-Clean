@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useAuth } from "@/contexts/AuthContext";
 import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
-import { oauthClient } from "@/integrations/auth/oauth";
+import { supabase } from "@/integrations/supabase/client";
 
 const AuthPage = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -35,8 +35,11 @@ const AuthPage = () => {
   const handleGoogleSignIn = async () => {
     setGoogleLoading(true);
     try {
-      const result = await oauthClient.auth.signInWithOAuth("google", {
-        redirect_uri: window.location.origin,
+      await supabase.auth.signInWithOAuth({
+        provider: "google",
+        options: {
+          redirectTo: window.location.origin,
+        },
       });
       if (result.error) {
         toast.error("Google sign-in failed");
